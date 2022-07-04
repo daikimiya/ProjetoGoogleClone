@@ -1,0 +1,46 @@
+body{
+    background-color: #202124;
+    height: 100vh;
+    max-height: 100vh;
+    color: white;
+    font-family: arial,sans-serif;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 0;
+}
+
+nav div{
+    padding: 6px;
+    margin: 4px;
+}
+
+
+input {
+    all: unset;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 100%;    
+}
+
+button{
+    all: unset;
+    background-color: #303134;
+    padding: 10px 18px 10px 18px;
+    border-radius: 6px;
+    border: 1px solid #202124;
+}
+
+button:hover{
+    border: 1px solid #515151;
+    cursor: pointer;
+}
+
+
+footer div .links div{
+    padding: 15px;
+    padding-left: 35px;
+   
+}
+

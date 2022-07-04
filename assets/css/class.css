@@ -1,0 +1,83 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover{
+    background-color: #515151;
+    border-radius: 50%;
+}
+
+.nav-img{
+    width: 24px; 
+    height: 24px; 
+}
+
+.img-profile{
+    width: 32px;
+    height: 32px;
+}
+
+.google-logo{
+    display: flex;
+    width: 300px;
+}
+
+.search-bar{
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 40px;
+    width: 600px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.lupa{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mic{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.search-hover:hover{
+    background-color: #303134;
+    box-shadow: -2px 2px 4px 0px #0202025e;
+    border: 1px solid #202124 !important;
+}
+
+.logo-search{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 300px);
+}
+
+.border-link{
+    border-bottom: 1px solid #5f6368;
+    
+}
+
+.span {
+    color: #8ab4f8;
+}
+
+.span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
